@@ -1,0 +1,16 @@
+{
+  "name": "rocket-arena-browser",
+  "version": "0.4.1",
+  "private": true,
+  "type": "module",
+  "description": "Browser car football with bots, garage and authoritative LAN rooms",
+  "scripts": {
+    "start": "node server/index.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  }
+}
